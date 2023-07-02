@@ -3,11 +3,12 @@
 	import Github from '~icons/mdi/github';
 	//@ts-ignore
 	import Twitter from '~icons/basil/twitter-outline';
+	// @ts-ignore
+	import LinkedIn from '~icons/teenyicons/linkedin-outline';
 	import Card from '../components/Card.svelte';
 
 	export let data;
 	$: ({ articles } = data);
-	$: console.log(articles[0]);
 </script>
 
 <section class="w-screen sm:w-4/5 flex flex-col items-center">
@@ -20,6 +21,9 @@
 		<a href="https://twitter.com/mvaodhan">
 			<Twitter style="font-size: 25px; color: teal" />
 		</a>
+		<a href="https://www.linkedin.com/in/mvaodhan/">
+			<LinkedIn style="font-size: 25px; color: #1275b3" />
+		</a>
 	</div>
 	<p
 		class="mt-5 px-2
@@ -27,8 +31,9 @@
 	>
 		I build web applications with JavaScript, React, and Node. Sometime I write about them too.
 	</p>
+	<h3 class="text-2xl sm:text-3xl font-bold mb-30 text-center mb-5">Articles</h3>
 	<div
-		class="overflow-y-scroll sm:w-4/5 w-full flex flex-col gap-y-10 mt-20 md:mt-40items-center h-[300px] overflow-x-hidden items-center"
+		class="overflow-y-scroll sm:w-4/5 lg:w-3/5 w-full flex flex-col gap-y-10 h-[600px] overflow-x-hidden items-center px-5"
 	>
 		{#each articles as article}
 			<a href={article.url} target="_blank" class="w-full">
