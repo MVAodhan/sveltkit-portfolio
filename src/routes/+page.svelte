@@ -46,7 +46,7 @@
 					description={'A simple bg-remover in SvelteKit, using the replicate api and Supabase, with Github OAuth'}
 				/>
 				<ProjectCard
-					href={'https://benevolent-stardust-12c228.netlify.app/'}
+					href={'https://schedulewithjason.netlify.app'}
 					title={'Schedule with Jason'}
 					description={'A internal utility tool to help with scheduling of episodes for Learn with Jason'}
 				/>
