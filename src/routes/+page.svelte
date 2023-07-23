@@ -31,9 +31,9 @@
 		</div>
 		<p
 			class="mt-5 px-2
-			text-center mb-5"
+			text-center mb-5 w-4/5"
 		>
-			I build web applications with JavaScript, React, and Node. Sometime I write about them too.
+			I build web applications with TypeScript, React, and Node. Sometime I write about them too.
 		</p>
 		<div class="flex flex-col items-center w-full mb-10">
 			<h3 class="text-2xl sm:text-3xl font-bold mb-30 text-center mb-5">Projects</h3>
@@ -44,16 +44,6 @@
 					href={'https://backgroundremove.netlify.app/'}
 					title={'Bg Remove'}
 					description={'A simple bg-remover in SvelteKit, using the replicate api and Supabase, with Github OAuth'}
-				/>
-				<ProjectCard
-					href={'https://benevolent-stardust-12c228.netlify.app/'}
-					title={'Schedule with Jason'}
-					description={'A internal utility tool to help with scheduling of episodes for Learn with Jason'}
-				/>
-				<ProjectCard
-					href={'https://benevolent-stardust-12c228.netlify.app/'}
-					title={'Schedule with Jason'}
-					description={'A internal utility tool to help with scheduling of episodes for Learn with Jason'}
 				/>
 				<ProjectCard
 					href={'https://benevolent-stardust-12c228.netlify.app/'}
