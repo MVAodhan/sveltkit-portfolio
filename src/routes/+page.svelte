@@ -12,8 +12,6 @@
 	$: ({ articles } = data);
 </script>
 
--
-
 <main class="flex flex-col items-center">
 	<section class="w-4/5 sm:w-4/5 flex flex-col items-center">
 		<h1 class="text-2xl sm:text-4xl font-bold mt-10 text-center">Aodhan Hamilton</h1>
@@ -43,7 +41,7 @@
 				<ProjectCard
 					href={'https://backgroundremove.netlify.app/'}
 					title={'Bg Remove'}
-					description={'A simple bg-remover in SvelteKit, using the replicate api and Supabase, with Github OAuth'}
+					description={'A simple bg-remover in SvelteKit, using the replicate api and Supabase, with Github OAuth (Supabase instane paused)'}
 				/>
 				<ProjectCard
 					href={'https://schedulewithjason.netlify.app'}
