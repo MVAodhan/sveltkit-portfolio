@@ -39,20 +39,22 @@
 				class="overflow-y-scroll sm:w-4/5 lg:w-3/5 w-full flex flex-col gap-y-10 h-[300px] overflow-x-hidden px-5 mb-5"
 			>
 				<ProjectCard
-					href={'https://backgroundremove.netlify.app/'}
-					title={'Bg Remove'}
-					description={'A simple bg-remover in SvelteKit, using the replicate api and Supabase, with Github OAuth (Supabase instane paused)'}
-				/>
-				<ProjectCard
 					href={'https://schedulewithjason.netlify.app'}
 					title={'Schedule with Jason'}
-					description={'A internal utility tool to help with scheduling of episodes for Learn with Jason'}
+					description={'Internal utility tool to help with scheduling of episodes for Learn with Jason'}
+					repoLink={'https://github.com/MVAodhan/schedule-with-jason-3'}
+				/>
+				<ProjectCard
+					href={'https://backgroundremove.netlify.app/'}
+					title={'Bg Remove'}
+					description={'A simple bg-remover using the replicate api (Supabase instane paused)'}
+					repoLink={'https://github.com/MVAodhan/bg-remover'}
 				/>
 			</div>
 
 			<h3 class="text-2xl sm:text-3xl font-bold mb-30 text-center mb-5">Articles</h3>
 			<div
-				class="overflow-y-scroll sm:w-4/5 lg:w-3/5 w-full flex flex-col gap-y-10 h-[300px] overflow-x-hidden items-center px-5"
+				class="overflow-y-scroll sm:w-4/5 lg:w-3/5 w-full flex flex-col gap-y-10 h-[200px] overflow-x-hidden items-center px-5"
 			>
 				{#each articles as article}
 					<Card title={article.title} date={article.readable_publish_date} href={article.url} />
